@@ -1,0 +1,166 @@
+outputs:
+  ja: index
+  en: en
+
+page-title:
+  ja: "潤羽るしあの軌跡"
+  en: "History of Rushia"
+
+history:
+  - title:
+      ja: "初ツイート"
+      en: "First Tweet"
+    embed:
+      type: tweet
+      ja: '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">お、お初にお目めにかかります。ホロライブ３期生の潤羽(うるは)るしあです🦋魔界学校所属のネクロマンサーです((˶ㅎ_|💀たくさんのお友達が欲しいので潤羽といっぱい仲良くしてください。永遠にどこまでもこれからよろしくお願いします🧟‍♀☨️🧟‍♂️るしあ🦋 <a href="https://t.co/pSXo7aX0Os">pic.twitter.com/pSXo7aX0Os</a></p>&mdash; 潤羽るしあ【活動終了】 (@uruharushia) <a href="https://twitter.com/uruharushia/status/1147882977906479104?ref_src=twsrc%5Etfw">July 7, 2019</a></blockquote>'
+    date: 2019-07-08
+
+  - title:
+      ja: 初配信
+      en: First Stream
+    embed:
+      type: ragtag-archive
+      id: xqsOegkgDAc
+    date: 2019-07-18
+
+  - title:
+      ja: 3Dお披露目
+      en: Become 3D
+    embed:
+      type: ragtag-archive
+      id: aBGaFFIP9bs
+    date: 2019-12-01
+
+  - title:
+      ja: お正月衣装お披露目
+      en: New Year's Clothes
+    date: 2020-01-02
+
+  - title:
+      ja: 初めての誕生日配信
+      en: First birthday Stream
+    embed:
+      type: ragtag-archive
+      id: zimcBGSw37o
+    date: 2020-01-22
+
+  - title:
+      ja: 初めてのソロボイス発売
+      en: First solo voice release
+    date: 2020-01-22
+
+  - title:
+      ja: hololive 1st fes.「ノンストップ・ストーリー」出演
+      en: Performed at hololive 1st fes. "Non Stop Story"
+    date: 2020-01-24
+
+  - title:
+      ja: 新衣装お披露目
+      en: New Clothes
+    embed:
+      type: ragtag-archive
+      id: g2nf-28JTps
+    date: 2020-06-16
+
+  - title:
+      ja: デビュー1周年前夜
+      en: 1st Anniversary Eve
+    embed:
+      type: ragtag-archive
+      id: z2RVyemVSMs
+    date: 2020-07-17
+
+  - title:
+      ja: デビュー1周年
+      en: 1st Anniversary
+    embed:
+      type: ragtag-archive
+      id: hQw6OYFus6E
+    date: 2020-07-18
+
+  - title:
+      ja: hololive 2nd fes.「Beyond the Stage」出演
+      en: Performed at hololive 2nd fes. "Beyond the Stage"
+    date: 2020-12-21
+
+  - title:
+      ja: 2回目の誕生日前夜
+      en: 2nd Birthday Eve
+    embed:
+      type: ragtag-archive
+      id: 7X87kRSu7B0
+    date: 2021-01-21
+
+  - title:
+      ja: 2回目の誕生日
+      en: 2nd Birthday
+    embed:
+      type: ragtag-archive
+      id: ekXsx1n-vz4
+    date: 2021-01-22
+
+  - title:
+      ja: 初のオリジナルソング「アイリス」公開
+      en: First original song, "アイリス" released
+    embed:
+      - type: ragtag-archive
+        id: NtRpDpfE69Y
+      - type: spotify
+        id: track/63m3cFmjuYTZTjuIqUW3RJ
+    date: 2021-01-22
+
+  - title:
+      ja: デビュー2周年
+      en: 2nd Anniversary
+    embed:
+      type: ragtag-archive
+      id: ZE8gTiKBjA8
+    date: 2021-07-18
+
+  - title:
+      ja: 新衣装お披露目
+      en: New Clothes
+    embed:
+      type: ragtag-archive
+      id: mckVW46GMk4
+    date: 2021-11-13
+
+  - title:
+      ja: HOLOLIVE FANTASY 1st LIVE「FAN FUN ISLAND」出演
+      en: Performed at HOLOLIVE FANTASY 1st LIVE "FAN FUN ISLAND"
+    date: 2021-11-25
+
+  - title:
+      ja: 3回目の誕生日前夜
+      en: 3rd Birthday Eve
+    embed:
+      type: ragtag-archive
+      id: S4wshJOlNII
+    date: 2022-01-21
+
+  - title:
+      ja: 3回目の誕生日
+      en: 3rd Birthday
+    embed:
+      type: ragtag-archive
+      id: cMdtt0otwIA
+    date: 2022-01-22
+
+  - title:
+      ja: オリジナルソング「思ひ恋ふ」公開
+      en: Original song, "思ひ恋ふ" released
+    embed:
+      - type: ragtag-archive
+        id: ibXRzMUUWPE
+      - type: spotify
+        id: track/0Ntwr2abKYB8aL21EnsgVg
+    date: 2022-01-22
+
+  - title:
+      ja: るしあよ、永遠に
+      en: RUSHIA, Forever
+    embed:
+      type: tweet
+      ja: '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【お知らせ】<br>「潤羽るしあ」契約解除に関するお知らせ<a href="https://t.co/xMHecdukbL">https://t.co/xMHecdukbL</a></p>&mdash; カバー株式会社 (@cover_corp) <a href="https://twitter.com/cover_corp/status/1496727074538541057?ref_src=twsrc%5Etfw">February 24, 2022</a></blockquote>'
+      en: '<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Notice regarding Termination of Our Contract with “Uruha Rushia”<br><br>English: <a href="https://t.co/5TMlIsJt4W">https://t.co/5TMlIsJt4W</a><br>Japanese: <a href="https://t.co/IFRGdcKbuy">https://t.co/IFRGdcKbuy</a></p>&mdash; hololive Official (@hololive_En) <a href="https://twitter.com/hololive_En/status/1496727230319595522?ref_src=twsrc%5Etfw">February 24, 2022</a></blockquote>'
+    date: 2022-02-24
