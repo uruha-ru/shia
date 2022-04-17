@@ -1,6 +1,7 @@
 import glob
 import os
 import shutil
+import datetime
 
 from jinja2 import Environment, FileSystemLoader
 import yaml
@@ -12,6 +13,9 @@ if (os.path.isdir("./output")):
 # Copy Static Directory
 shutil.copytree("./templates/static", "./output")
 
+generated_site = {'pages': [], 'baseurl': 'https://uruha.ru/shia/',
+                  'now': datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S+00:00')}
+
 with open("history.yaml", 'r', encoding='utf-8') as f:
     data = yaml.safe_load(f)
 
@@ -21,6 +25,7 @@ with open("history.yaml", 'r', encoding='utf-8') as f:
     for lang in data['outputs'].keys():
         data['i_title'] = data['page-title'][lang]
         data['i_path'] = data['outputs'][lang].replace('index', '')
+        data['i_baseurl'] = generated_site['baseurl']
 
         data['i_lang'] = lang
 
@@ -41,4 +46,9 @@ with open("history.yaml", 'r', encoding='utf-8') as f:
                             e['i_html'] = e['ja']
 
         with open("./output/{}.html".format(data['outputs'][lang]), 'w', encoding='utf-8') as fe:
+            generated_site['pages'].append(data['i_path'])
             fe.write(template.render(data))
+
+sitemap_template = env.get_template("sitemap.xml")
+with open("./output/sitemap.xml", 'w', encoding='utf-8') as f:
+    f.write(sitemap_template.render(generated_site))
