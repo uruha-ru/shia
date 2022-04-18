@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ i_lang }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=520px, initial-scale=1.0">
+    <title>{{ i_title }}</title>
+
+    <meta property="og:url" content="{{ i_baseurl }}{{ i_path }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ i_title }}">
+
+    <meta property="twitter:domain" content="uruha.ru">
+    <meta property="twitter:url" content="{{ i_baseurl }}{{ i_path }}">
+    <meta name="twitter:title" content="{{ i_title }}">
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦋</text></svg>">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../discography.css">
+</head>
+
+<body>
+
+    <h1>{{ i_title }}</h1>
+
+
+    <div>
+        {% for i in discography %}
+        <div class="card">
+            <h2>{{ i.i_title }}</h2>
+            <div>
+                <ul>
+                    {% for l in i.links %}
+                    <li><a class="{{ l.type }}" href="{{ l.url }}" target="_blank">{{ l.name }}</a></li>
+                    {% endfor %}
+                </ul>
+                <p>
+                    {{ i.i_comment }}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <footer>
+        By <a href="https://github.com/mkaraki" target="_blank">mkaraki</a> with Love<br />
+        Thanks for <a href="https://archive.ragtag.moe/" target="_blank">Ragtag Archive</a> for archives.<br />
+    </footer>
+
+</body>
+
+</html>

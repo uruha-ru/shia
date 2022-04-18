@@ -1,0 +1,43 @@
+outputs:
+  ja: discography/index
+  #en: discography/en.html
+
+page-title:
+  ja: "潤羽るしあのオリジナルソング"
+  en: "Original Songs of Rushia"
+
+discography:
+  - title:
+      ja: アイリス
+    links:
+      - type: spotify
+        url: https://open.spotify.com/album/1sxuaYjXhrH6qUJv6mn4WX
+      - type: musicbrainz
+        url: https://musicbrainz.org/release/d7a9cb17-3c72-44ef-8453-46f6858fc8a2
+      - type: ragtag-archive
+        url: https://archive.ragtag.moe/watch?v=NtRpDpfE69Y
+    coverart:
+      250px: https://coverartarchive.org/release/d7a9cb17-3c72-44ef-8453-46f6858fc8a2/28402266514-250.jpg
+      500px: https://coverartarchive.org/release/d7a9cb17-3c72-44ef-8453-46f6858fc8a2/28402266514-500.jpg
+      1200px: https://coverartarchive.org/release/d7a9cb17-3c72-44ef-8453-46f6858fc8a2/28402266514-1200.jpg
+    comment:
+      ja: |
+        潤羽るしあ初のオリジナルソング。作詞作曲は北川勝利氏が担当。また、本人も作詞に携わった。
+    date: 2021-01-22
+  - title:
+      ja: 思ひ恋ふ
+    links:
+      - type: spotify
+        url: https://open.spotify.com/album/141xmu7Ccc4Tr5q7MlFmEw
+      - type: musicbrainz
+        url: https://musicbrainz.org/release/d8017c36-3217-4c2e-8ae1-0e652ebfcacd
+      - type: ragtag-archive
+        url: https://archive.ragtag.moe/watch?v=ibXRzMUUWPE
+    coverart:
+      250px: https://coverartarchive.org/release/d8017c36-3217-4c2e-8ae1-0e652ebfcacd/31534050483-250.jpg
+      500px: https://coverartarchive.org/release/d8017c36-3217-4c2e-8ae1-0e652ebfcacd/31534050483-500.jpg
+      1200px: https://coverartarchive.org/release/d8017c36-3217-4c2e-8ae1-0e652ebfcacd/31534050483-1200.jpg
+    comment:
+      ja: |
+        潤羽るしあの2作目のオリジナルソング。作詞作曲はすこっぷ氏が担当。
+    date: 2022-01-23
