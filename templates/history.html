@@ -39,6 +39,9 @@
                         {% if e.type == 'ragtag-archive' %}
                         <button class="video passive-load-content"
                             data-url="https://archive.ragtag.moe/embed/{{ e.id }}"></button>
+                        {% elif e.type == 'youtube' %}
+                        <button class="video passive-load-content"
+                            data-url="https://www.youtube.com/embed/{{ e.id }}"></button>
                         {% elif e.type == 'tweet' %}
                         {{ e.i_html }}
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
