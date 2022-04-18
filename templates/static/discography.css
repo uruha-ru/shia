@@ -45,6 +45,12 @@ body {
     margin-left: 3px;
 }
 
+.card > .date {
+    color: gray;
+    font-size: small;
+    margin-top: 0.5em;
+}
+
 footer {
     margin-top: 2em;
 }

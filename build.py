@@ -70,6 +70,7 @@ with open("discography.yaml", 'r', encoding='utf-8') as f:
 
         for h in data['discography']:
             h['i_title'] = h['title'][lang]
+            h['i_comment'] = h['comment'][lang]
             for link in h['links']:
                 link['name'] = SITENAMEMAP[link['type']]
 

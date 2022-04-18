@@ -39,9 +39,12 @@
                     <li><a class="{{ l.type }}" href="{{ l.url }}" target="_blank">{{ l.name }}</a></li>
                     {% endfor %}
                 </ul>
-                <p>
-                    {{ i.i_comment }}
-                </p>
+            </div>
+            <p>
+                {{ i.i_comment }}
+            </p>
+            <div class="date">
+                {{ i.date }}
             </div>
         </div>
         {% endfor %}
