@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    color: white;
+    background-color: #444;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.card h2 {
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.spotify:link, .spotify:visited, .spotify:active, .spotify:hover {
+    color: #1eaf52;
+}
+
+.musicbrainz:link, .musicbrainz:visited, .musicbrainz:hover, .musicbrainz:active {
+    color: #ba478f;
+}
+
+.ragtag-archive:link, .ragtag-archive:visited, .ragtag-archive:hover, .ragtag-archive:active {
+    color: #111827;
+}
+
+.card ul {
+    display: inline;
+    padding-left: 3px;
+}
+
+.card li {
+    display: inline;
+    list-style: none;
+    margin-left: 3px;
+}
+
+footer {
+    margin-top: 2em;
+}
+
+footer, footer a:link, footer a:visited {
+    color: lightgray;
+}
