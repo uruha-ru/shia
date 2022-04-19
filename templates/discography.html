@@ -32,19 +32,26 @@
     <div>
         {% for i in discography %}
         <div class="card">
-            <h2>{{ i.i_title }}</h2>
-            <div>
-                <ul>
-                    {% for l in i.links %}
-                    <li><a class="{{ l.type }}" href="{{ l.url }}" target="_blank">{{ l.name }}</a></li>
-                    {% endfor %}
-                </ul>
+            <div class="cover">
+                <img src="{{ i.coverart }}" alt="Coverart">
             </div>
-            <p>
-                {{ i.i_comment }}
-            </p>
-            <div class="date">
-                {{ i.date }}
+            <div class="tinfo">
+                <h2>{{ i.i_title }}</h2>
+                <div>
+                    <ul>
+                        {% for l in i.links %}
+                        <li><a class="{{ l.type }}" href="{{ l.url }}" target="_blank">{{ l.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="date">
+                    {{ i.date }}
+                </div>
+            </div>
+            <div class="dinfo">
+                <p>
+                    {{ i.i_comment }}
+                </p>
             </div>
         </div>
         {% endfor %}
