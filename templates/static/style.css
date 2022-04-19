@@ -11,7 +11,8 @@ h1 {
 .timeline-container {
     margin: 0;
     padding: 0;
-    width: 515px;
+    width: 100vw;
+    max-width: 515px;
     margin: auto;
 }
 
