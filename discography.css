@@ -17,9 +17,26 @@ body {
     margin-top: 10px;
 }
 
-.card h2 {
-    margin: 0;
-    margin-bottom: 2px;
+.card .tinfo h2 {
+    margin: 3px 0;
+}
+
+.card > .cover {
+    width: 100px;
+    float: left;
+}
+
+.card > .cover > img {
+    width: 100%;
+}
+
+.card .tinfo {
+    width: calc(100% - 100px);
+    margin-left: 105px;
+}
+
+.card > .dinfo {
+    clear: left;
 }
 
 .spotify:link, .spotify:visited, .spotify:active, .spotify:hover {
@@ -42,10 +59,10 @@ body {
 .card li {
     display: inline;
     list-style: none;
-    margin-left: 3px;
+    margin-right: 3px;
 }
 
-.card > .date {
+.card .date {
     color: gray;
     font-size: small;
     margin-top: 0.5em;
