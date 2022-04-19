@@ -1,7 +1,14 @@
 html, body {
     margin: 0;
     color: white;
+}
+
+html {
     background-color: #444;
+    background-image: linear-gradient(#3b8478 1px, transparent 0),
+                    linear-gradient(90deg, #3b8478 1px, transparent 0);
+    background-size: 40px 40px;
+    background-repeat: repeat;
 }
 
 body {
@@ -14,7 +21,7 @@ body {
     color: black;
     padding: 10px;
     border-radius: 15px;
-    margin-top: 10px;
+    margin-top: 2em;
 }
 
 .card .tinfo h2 {
